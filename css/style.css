@@ -1,0 +1,306 @@
+#home{
+    height: 600px;
+    width: 100%;
+    background-image: url("https://www.callahead.com/portable-toilets/accessories/hand-stand/HS-09.jpg");
+    border-image: fill 0 linear-gradient(#0003,#000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home h1{
+    text-align: center;
+    color:darkgoldenrod;
+    font-family: "Playwrite CU", cursive;
+    padding-top: 200px;
+    font-size: 50px;
+}
+#home h3{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    padding-bottom: 5%;
+}
+.btn,.submit {
+    margin-left: 40%;
+    padding: 0.9rem 1.8rem;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    border: 3px solid darkgoldenrod;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+}
+   
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    background-color:darkgoldenrod;
+    transition: all .3s;
+    z-index: -1;
+}
+   
+   .btn:hover::before{
+    transform: translateX(0);
+}
+#abo{
+    height: 100vb;
+    width: 100%;
+    margin: 0;
+    margin-left: 5px;
+    background-image: url("https://img.freepik.com/free-photo/smoke-background-texture-white-abstract-design_53876-128269.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:space-between;
+    gap: 2%;
+}
+#abo h1{
+    text-align: center;
+    padding-top: 50px;
+    padding: 15px;
+    font-family: "Playwrite CU", cursive;
+    color: goldenrod;
+    font-size: 30px;
+}
+#abo p{
+    margin-right: 10%;
+    text-align: center;
+    margin-bottom: 30%;
+    font-size: 20px;
+}
+#abo h3{
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+#abo img{
+   margin-left: 25%;
+    height: 500px;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.child{
+    height: 200px;
+    width: 100%;
+    background-image: url("https://www.shutterstock.com/image-photo/view-above-womens-hands-cut-600nw-1937819884.jpg");
+    border-image: fill 0 linear-gradient(#0003,#000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child h2{
+    text-align: center;
+    color: yellow;
+    padding: 30px;
+    font-family: "Sedgwick Ave", cursive;
+    font-size: 30px;
+}
+.child h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#bg-imgone{
+    background-position: center;
+    background-size: cover;
+    transition: 0.7s;
+    overflow: hidden;
+    position: relative;
+    cursor:pointer;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+#bg-imgone:hover{
+    transform: scale(1.1);
+}
+.sec{
+    text-align: center;
+    height: 600px;
+}
+.sec h2{
+    font-family: "Playwrite CU", cursive;
+    color:darkgoldenrod;
+    font-size: 20px;
+    padding-top: 60px;
+}
+.card-container{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 10px 5px;
+    margin: -0.10px;
+}
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card:hover{
+    border-color:darkgoldenrod;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    cursor:pointer;
+    transition: 0.7s;
+    padding: 10px;
+}
+.card img:hover{
+    transform: scale(1.1);
+    scale:flex;
+}
+.card-container{
+    padding: 16px;
+}
+.card-content p{
+    color: #666;
+    font-size: 20px;
+    line-height: 1.3;
+}
+.card-content h4{
+    float: left;
+    padding: 5px;
+    color:darkgoldenrod;
+}
+.card-content h1{
+    font-size: 20px;
+}
+.card-content h6{
+    float: right;
+    padding: 5px;
+    font-size: 20px;
+}
+#menu h1{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#menu h3{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+}
+#menu h3:hover{
+    color: darkgoldenrod;
+}
+#menu hr{
+    margin-top: -2px;
+}
+#class hr{
+    margin-top: -2px;
+}
+#class h1{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#class h3{
+    font-family: "Josefin Sans", sans-serif;
+}
+#class h3:hover{
+    color: darkgoldenrod;
+}
+
+#side{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+#side h5{
+    margin-left: 50%;
+    color: darkgoldenrod;
+    font-size: 25px;
+}
+.you{
+    padding-top: 5%;
+    background-image: url("https://cooking-healthy-food.web.app/assets/tan-color-banner-B60ikGtC.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.you h3{
+    font-family: "Playwrite AT", cursive;
+    color: darkgoldenrod;
+    float: left;
+    margin-left: 5%;
+}
+.you h2{
+    font-family: "Kanit", sans-serif;
+    color: black;
+    margin-right: 70%;
+    font-size: 30px;
+}
+.text{
+    display: flex;
+    height: 50px;
+    width: 50%;
+}
+.email{
+    display: flex;
+    height: 50px;
+    width: 50%;
+}
+.date{
+    display: flex;
+    height: 50px;
+    width: 50%;
+}
+.time{
+    display: flex;
+    height: 50px;
+    width: 50%;
+}
+.submit:hover{
+   background-color: darkgoldenrod;
+   transform: translateX(0);
+   transition: all .3s;
+   border-radius: 20px;
+   
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 255%;
+}
+.footer a {
+    color: #fff;
+}
+.footer a:hover {
+    color: #ddd;
+}
+.row p:hover{
+    transform: translateX(0);
+    transition: all .3s;
+    cursor: pointer;
+    color: darkgoldenrod;
+}
+.icon {
+    font-size: 2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.icon:hover {
+    color: darkgoldenrod; /* Change to your desired color */
+    transform: scale(1.1); /* Scale up the icon */
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.specific-element {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
